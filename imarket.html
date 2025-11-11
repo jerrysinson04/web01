@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>數位行銷收入導向的廣告預算分配</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      margin: 30px;
+      line-height: 1.8;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #005078;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    ul {
+      margin-bottom: 1em;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    .highlight {
+      background-color: #e1f5fe;
+      padding: 10px;
+      border-left: 4px solid #0288d1;
+      margin: 1em 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>如何從數位行銷收入分配下一輪廣告預算</h1>
+
+  <h2>一、定義核心指標與資料來源</h2>
+  <p>先釐清哪些數據會成為預算分配的依據：</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>類型</th>
+        <th>常見指標</th>
+        <th>說明</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>營收成效</td>
+        <td>ROAS、收入佔比、客單價</td>
+        <td>每一元投資帶來多少收益</td>
+      </tr>
+      <tr>
+        <td>成本效率</td>
+        <td>CPA、CPL、CTR、CPC</td>
+        <td>評估成本與成效的平衡</td>
+      </tr>
+      <tr>
+        <td>成長潛力</td>
+        <td>CVR、新客比例、留存率</td>
+        <td>判斷未來投資的成長機會</td>
+      </tr>
+      <tr>
+        <td>品牌或觸及</td>
+        <td>Impression、Reach、Engagement</td>
+        <td>適用於品牌曝光型活動</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="highlight">
+    📌 資料來源：GA4、Meta Ads、Google Ads、電商平台、CRM、BI 報表 等
+  </div>
+
+  <h2>二、建立績效回顧表</h2>
+  <p>可用 Excel 或 Power BI 建立如下表格：</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>渠道</th>
+        <th>花費</th>
+        <th>收入</th>
+        <th>ROAS</th>
+        <th>CPA</th>
+        <th>新客比例</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Google Ads</td>
+        <td>$50,000</td>
+        <td>$200,000</td>
+        <td>4.0</td>
+        <td>$150</td>
+        <td>30%</td>
+      </tr>
+      <tr>
+        <td>Facebook Ads</td>
+        <td>$40,000</td>
+        <td>$100,000</td>
+        <td>2.5</td>
+        <td>$200</td>
+        <td>50%</td>
+      </tr>
+      <tr>
+        <td>EDM</td>
+        <td>$5,000</td>
+        <td>$25,000</td>
+        <td>5.0</td>
+        <td>$50</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td>KOL 合作</td>
+        <td>$20,000</td>
+        <td>$50,000</td>
+        <td>2.5</td>
+        <td>$400</td>
+        <td>60%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>三、預算分配的三種策略模型</h2>
+
+  <h3>1. 比例導向分配法（ROAS-Based）</h3>
+  <p>依照各渠道的 ROAS 或收入佔比來重新分配預算。</p>
+
+  <h3>2. 加權分配法（Multiple Factor Model）</h3>
+  <p>結合多個指標（如 ROAS 50%、新客佔比 30%、CVR 20%）計算出綜合績效分數後，進行分配。</p>
+
+  <h3>3. 實驗性分配法（Test & Scale）</h3>
+  <p>將 20% 預算保留給新平台、新策略，其餘根據歷史績效分配。</p>
+
+  <h2>四、動態調整機制</h2>
+  <ul>
+    <li>定期（每週/月）檢查 ROAS、CPA、CPC 等關鍵指標</li>
+    <li>針對成效好/壞的渠道即時調整預算</li>
+    <li>可透過 AI 或自動儀表板設定異常提醒</li>
+  </ul>
+
+  <h2>五、推薦工具</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>工具</th>
+        <th>功能</th>
+        <th>用法</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Google Looker Studio</td>
+        <td>報表整合與視覺化</td>
+        <td>將 GA、Meta、廣告數據集中展示</td>
+      </tr>
+      <tr>
+        <td>Excel / Google Sheets</td>
+        <td>預算模擬</td>
+        <td>建立加權公式與動態模型</td>
+      </tr>
+      <tr>
+        <td>AI 工具（ChatGPT 等）</td>
+        <td>預測與策略建議</td>
+        <td>根據歷史數據生成分配建議</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>六、案例示範</h2>
+  <p><strong>條件：</strong>上一輪總收入 $375,000，預算 $115,000。</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>渠道</th>
+        <th>上輪 ROAS</th>
+        <th>建議分配比率</th>
+        <th>預算金額</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Google Ads</td>
+        <td>4.0</td>
+        <td>40%</td>
+        <td>$46,000</td>
+      </tr>
+      <tr>
+        <td>Facebook Ads</td>
+        <td>2.5</td>
+        <td>30%</td>
+        <td>$34,500</td>
+      </tr>
+      <tr>
+        <td>EDM</td>
+        <td>5.0</td>
+        <td>20%</td>
+        <td>$23,000</td>
+      </tr>
+      <tr>
+        <td>KOL / 新渠道</td>
+        <td>-</td>
+        <td>10%</td>
+        <td>$11,500</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>七、結論：預算分配的原則</h2>
+  <ul>
+    <li><strong>依成效分配，不憑直覺。</strong></li>
+    <li><strong>持續追蹤，滾動優化。</strong></li>
+    <li><strong>保留測試預算，為未來鋪路。</strong></li>
+    <li><strong>善用自動化工具與 AI，提升效率。</strong></li>
+  </ul>
+
+</body>
+</html>
+
